@@ -1,14 +1,14 @@
 /*
  * Library to read the value of a rotary encoder
  * Created by P Horemans, April 11,2021
- * initalize: rotary a-name(pinA/CLK, pinB/DT, pinSwicht, beginvalue, endvalue, defaultValue, steps/click, rolOver  )
+ * initalize: rotary a-name(pinA/CLK, pinB/DT, pinSwicht, beginvalue, endvalue, steps/click, rolOver  )
  * rollOver true = at endvalue the value rolls over to beginvalue, at beginvalue the value rols over to endvalue (contineaous rotor) 
  * inputs are pulled-up
  * Methods:
  * getValue() returns integer value between BeginValue and endValue
  * setDebug(bool) true=debug messages (requires Serial.begin() to be initalized) 
  * setValue(int) sets the value variable (used in case the value is changed outside the class)
- * getSwitch() toggles state when pushed
+ * getSwitch() toggles state when pushed(0/1)
  * getDirection() returns -1,0,1
  */
 #ifndef rotary_H

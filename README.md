@@ -7,7 +7,9 @@
 	
 <body style="background-color:#FFFFFF; padding:0;  margin: 0;">
 <div style="text-align:left;">
-  <span style="font-size:12pt; font-family:Arial, Helvetica, sans-serif; color:#000000; ">Library to use a rotary encoder with Arduino (or ESP)<br/>Initalize by creating an object of class rotary:<br><I> rotary a-name(pinA/CLK, pinB/DT, pinSwicht, minValue,maxValue, steps/click, rolOver)</I><br/>rollOver true = at maxValue the value rolls over to minValue, at minValue the value rols over to maxValue (contineaous rotor)<br/>inputs are pulled-up<br/>
+  <span style="font-size:12pt; font-family:Arial, Helvetica, sans-serif; color:#000000; ">Library to use a rotary encoder with Arduino (or ESP)<br/>Initalize by creating an object of class rotary:<br><I> rotary a-name(pinA/CLK, pinB/DT, pinSwicht, minValue,maxValue, steps/click, rolOver)</I><br/>steps/click = the change of value/rotary click. For example minValue=0, maxValue=1023, steps/click=50 then 1 click will change the<br>
+	  value with 50. For example when starting 1 click will change the value from 0 to 50, +1 click value = 100 etc.
+	  <br>rollOver true = at maxValue the value rolls over to minValue, at minValue the value rols over to maxValue (contineaous rotor)<br/>inputs are pulled-up<br/>
 	  <h2 style="vertical-align: bottom; position:relative; display: inline-block; background:none; font-size:18pt; font-family:Arial, Helvetica, sans-serif; color:#000000; text-align:left; " id="heading_68635472">Methods</h2>
 	 <br/></span>
   <table id="table_7fa21dec" cellpadding="3" cellspacing="1"  style="box-sizing: border-box; vertical-align: bottom; position:relative; display: inline-table; width:50%; height:235px; background:none; border: 1px solid #8C8C8C; table-layout: fixed; ">

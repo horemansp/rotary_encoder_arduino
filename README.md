@@ -4,17 +4,7 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="generator" content="RocketCake">
-	<title></title>
-	<style type="text/css">
-		h1, h2, h3 { margin:0; padding:0; font-weight:normal; font-style:normal; }
-		a { color:#5D5D9E; } 
-		a:visited { color:#5D5D9E; } 
-		a:active { color:#5C615E; } 
-		a:hover { color:#B2B3B4; } 
-		#table_7fa21dec th { border: 1px solid #8C8C8C;  } 
-		#table_7fa21dec td { border: 1px solid #8C8C8C;  } 
-	</style>
-</head>
+	
 <body style="background-color:#FFFFFF; padding:0;  margin: 0;">
 <div style="text-align:left;">
   <span style="font-size:12pt; font-family:Arial, Helvetica, sans-serif; color:#000000; ">Library to use a rotary encoder with Arduino (or ESP)<br/>Initalize by creating an object of class rotary: rotary a-name(pinA/CLK, pinB/DT, pinSwicht, minValue,maxValue, steps/click, rolOver)<br/>rollOver true = at maxValue the value rolls over to minValue, at minValue the value rols over to maxValue (contineaous rotor)<br/>inputs are pulled-up<br/>Methods<br/></span>

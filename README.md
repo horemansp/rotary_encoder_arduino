@@ -1,6 +1,6 @@
 # rotary_encoder_arduino
 Library to use a rotary encoder with Arduino (or ESP)<br>
-Initalize by creating an object of class rotary: rotary a-name(pinA/CLK, pinB/DT, pinSwicht, beginvalue, endvalue, defaultValue, steps/click, rolOver)<br>
+Initalize by creating an object of class rotary: rotary a-name(pinA/CLK, pinB/DT, pinSwicht, beginvalue, endvalue, steps/click, rolOver)<br>
  rollOver true = at endvalue the value rolls over to beginvalue, at beginvalue the value rols over to endvalue (contineaous rotor)<br> 
  inputs are pulled-up<br>
  Methods:<br>

@@ -1,7 +1,7 @@
 #include "rotary.h" //when rotary.h and rotary.cpp files are in your sketch direcotry
 //#include <rotary.h> //when rotary installed in your library
-int ledPinDim = D4;
-int ledPinSwitch = D3;
+int ledPinDim =4;
+int ledPinSwitch = 3;
 int value = 1023;
 bool prevSwitchState = false;
 bool currentSwitchState = false;
@@ -11,7 +11,7 @@ bool switchPressed = false;
  * roll-over= true then after max-value, rotary starts at min-value. Or when win-value, will start at max-value (contineous)
  *
  */
-rotary myRot(D7,D6,D5,0,1023,50,false); //create object from class rotary
+rotary myRot(7,6,5,0,1023,50,false); //create object from class rotary
 
 void setup() {
   // put your setup code here, to run once:

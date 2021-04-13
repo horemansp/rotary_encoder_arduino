@@ -7,7 +7,7 @@
 	
 <body style="background-color:#FFFFFF; padding:0;  margin: 0;">
 <div style="text-align:left;">
-  <span style="font-size:12pt; font-family:Arial, Helvetica, sans-serif; color:#000000; ">Library to use a rotary encoder with Arduino (or ESP)<br/><br>rotary_encoder_library.ino contains examples on how to use<br><br>Initalize by creating an object of class rotary:<br><I> rotary a-name(pinA, pinB, pinSwicht, minValue,maxValue, steps/click, rolOver)</I><br/>steps/click = the change of value/rotary click. For example minValue=0, maxValue=1023, steps/click=50 then 1 click will change the<br>
+  <span style="font-size:12pt; font-family:Arial, Helvetica, sans-serif; color:#000000; ">Library to use a rotary encoder with Arduino (or ESP) - not interrupt based<br/><br>rotary_encoder_library.ino contains examples on how to use<br><br>Initalize by creating an object of class rotary:<br><I> rotary a-name(pinA, pinB, pinSwicht, minValue,maxValue, steps/click, rolOver)</I><br/>steps/click = the change of value/rotary click. For example minValue=0, maxValue=1023, steps/click=50 then 1 click will change the<br>
 	  value with 50. For example when starting 1 click will change the value from 0 to 50, +1 click value = 100 etc.
 	  <br>rollOver true = at maxValue the value rolls over to minValue, at minValue the value rols over to maxValue (contineaous rotor)<br>
 	  In the above example, when the rotary will reach 1023, he will roll-over to 0<br>

@@ -8,7 +8,7 @@ bool currentSwitchState = false;
 bool switchPressed = false;
 /* use of the rotary class:
  * rotary a-name(pinA/CLK, pinB/DT, pinSwitch, min-value, max-value, steps/click,roll-over)
- * roll-over= true then after max-value, rotary starts at min-value. Or when win-value, will start at max-value (contineous)
+ * roll-over= true then after max-value, rotary starts at min-value. Or when min-value, will start at max-value (contineous)
  *
  */
 rotary myRot(7,6,5,0,1023,50,false); //create object from class rotary

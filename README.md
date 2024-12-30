@@ -10,6 +10,7 @@
   <span style="font-size:12pt; font-family:Arial, Helvetica, sans-serif; color:#000000; ">Library to use a rotary encoder with Arduino (or ESP) - not interrupt based<br/><br>rotary_encoder_library.ino contains examples on how to use<br><br>Initalize by creating an object of class rotary:<br><I> rotary a-name(pinA, pinB, pinSwicht, minValue,maxValue, steps/click, rolOver)</I><br/>steps/click = the change of value/rotary click. For example minValue=0, maxValue=1023, steps/click=50 then 1 click will change the<br>
 	  value with 50. For example when starting 1 click will change the value from 0 to 50, +1 click value = 100 etc.
 	  <br>rollOver true = at maxValue the value rolls over to minValue, at minValue the value rols over to maxValue (contineaous rotor)<br>
+	  <b>rotary a-name(pinA, pinB, pinSwicht, 0, 1023, 1, true);</b><br>
 	  In the above example, when the rotary will reach 1023, he will roll-over to 0<br>
 	  Or when reaching 0 he the rotary will roll-over to 1023<br/>inputs are pulled-up<br/>
 	  <h2 style="vertical-align: bottom; position:relative; display: inline-block; background:none; font-size:18pt; font-family:Arial, Helvetica, sans-serif; color:#000000; text-align:left; " id="heading_68635472">Methods</h2>
